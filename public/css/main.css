@@ -541,6 +541,12 @@ div.bann{
 div.bann .splide{
   height: inherit;
 }
+
+.splide__slide img{
+  width: 100%;
+  max-height: 360px;
+}
+
 @media only screen and (min-width: 411.05px) {
   div.bann{
     width: 90%;
@@ -611,6 +617,14 @@ section.distribuidores div.img-dist img{
   height: 30px;
   margin: 10px 15px;
 }
+}
+
+/* catalogos */
+.row-catalogos{
+  margin: 20px auto;
+}
+.row-catalogos .col .card{
+  margin: auto;
 }
 
 /* contact */
