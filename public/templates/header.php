@@ -54,7 +54,7 @@
       <nav class="navegador-principal clearfix" id="navegador-principal">
         <ul>
           <li><a href="/">Inicio</a></li>
-          <li><a href="building.php">Cat&aacute;logos</a></li>
+          <li><a href="catalogos.php">Cat&aacute;logos</a></li>
           <li><a href="contacto.php">Contacto</a></li>
         </ul>
       </nav>
@@ -72,7 +72,7 @@
       <nav class="navegador-movil clearfix" id="navegador-movil">
         <ul>
           <li><a href="/">Inicio</a></li>
-          <li><a href="building.php">Cat&aacute;logos</a></li>
+          <li><a href="catalogos.php">Cat&aacute;logos</a></li>
           <li><a href="contacto.php">Contacto</a></li>
         </ul>
       </nav>

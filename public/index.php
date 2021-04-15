@@ -60,7 +60,7 @@
       </div>
       <div class="img-dist center">
         <img src="img/veto.png" alt="veto">
-        <img src="img/tecnolite-logo.png" alt="tecnolite">
+        <img src="img/tecnolite.png" alt="tecnolite">
         <img src="img/3m.png" alt="3M">
         <img src="img/anclo.png" alt="anclo">
         <img src="img/igesa.png" alt="igesa">
@@ -69,6 +69,39 @@
     </div>
   </section>
   <!-- End Distribuidores -->
+  <!-- Mission, Visson -->
+<section class="mission-vision">
+  <div class="container clearfix">
+  <div class="row">
+  <div class="col-md text-center">
+  <div class="title"><h4>Misi&oacute;n</h4></div>
+  <div class="text-justify">
+  Satisfacer las necesidades de nuestros clientes con un servicio y productos de calidad,
+  proporcionando un bienestar al personal de la empresa, teniendo buena armonía con los provedores y la sociedad.
+  </div>
+  </div>
+  <div class="col-md text-center">
+  <div class="title"><h4>Visi&oacute;n</h4></div>
+  <div class="text-justify">
+  Ser una empresa l&iacute;der en la distribuci&oacute;n de suministros el&eacute;ctricos e iluminaci&oacute;n
+  en la regi&oacute;n con personal responsable y especializado para un servicio de calidad.
+  </div>
+  </div>
+  <div class="col-md text-center">
+  <div class="title"><h4>Valores</h4></div>
+    <ul class="text-left">
+      <li>Honestidad</li>
+      <li>Respeto</li>
+      <li>Responsabilidad</li>
+      <li>Lealtad</li>
+      <li>Tolerancia</li>
+      <li>Trabajo en equipo</li>
+    </ul>
+  </div>
+  </div>
+  </div>
+</section>
+<!-- End Mission, Visson -->
  
   <?php 
     require_once('templates/contacto.php');

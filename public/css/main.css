@@ -587,6 +587,7 @@ section.infor .productos ul {
 section.distribuidores{
   height: fit-content;
   background-color: rgb(225, 225, 225);
+  padding: 2rem 0;
 }
 section.distribuidores div.img-dist{
   width: 100%;
@@ -619,9 +620,17 @@ section.distribuidores div.img-dist img{
 }
 }
 
+section.mission-vision{
+  padding: 3rem 0 0;
+}
+
+section.mission-vision h4:hover{
+  color: #d27700;
+}
+
 /* catalogos */
 .row-catalogos{
-  margin: 20px auto;
+  margin: 4rem auto 1rem;
 }
 .row-catalogos .col .card{
   margin: auto;

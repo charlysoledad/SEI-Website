@@ -5,69 +5,23 @@ $isIndex = false;
 ?>
 <div class="container">
     <div class="row row-catalogos">
-        <div class="col mb-4">
-            <div class="card text-center" style="width: 18rem;">
-                <img src="https://cdn.worldvectorlogo.com/logos/truper-1.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Ver Cat&aacute;logo</a>
+        <?php
+        $path = 'files/';
+        foreach (glob($path . '*.pdf') as $filename) {
+            $p = pathinfo($filename);
+        ?>
+            <div class="col mb-4">
+                <div class="card text-center" style="width: 18rem;">
+                    <img src="img/<?php echo $p['filename'].'.png'; ?>" class="card-img-top" alt="<?php echo $p['filename'];?>">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo ucfirst($p['filename']); ?></h5>
+                        <a target="_blank" href="<?php echo $path.$p['filename'].'.pdf' ?>" class="btn btn-primary">Ver Cat&aacute;logo</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card text-center" style="width: 18rem;">
-                <img src="https://cdn.worldvectorlogo.com/logos/truper-1.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Ver Cat&aacute;logo</a>
-                </div>
-            </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card text-center" style="width: 18rem;">
-                <img src="https://cdn.worldvectorlogo.com/logos/truper-1.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Ver Cat&aacute;logo</a>
-                </div>
-            </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card text-center" style="width: 18rem;">
-                <img src="https://cdn.worldvectorlogo.com/logos/truper-1.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Ver Cat&aacute;logo</a>
-                </div>
-            </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card text-center" style="width: 18rem;">
-                <img src="https://cdn.worldvectorlogo.com/logos/truper-1.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Ver Cat&aacute;logo</a>
-                </div>
-            </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card text-center" style="width: 18rem;">
-                <img src="https://cdn.worldvectorlogo.com/logos/truper-1.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Ver Cat&aacute;logo</a>
-                </div>
-            </div>
-        </div>
-        <div class="col mb-4">
-            <div class="card text-center" style="width: 18rem;">
-                <img src="https://cdn.worldvectorlogo.com/logos/truper-1.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <a href="#" class="btn btn-primary">Ver Cat&aacute;logo</a>
-                </div>
-            </div>
-        </div>
+        <?php
+        }
+        ?>
     </div>
 </div>
 <?php
